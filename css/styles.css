@@ -153,10 +153,9 @@ border-bottom: 1px solid #e7e9fc;
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #fff;
         padding-top: 188px;
-        margin-bottom: 48px;
+        padding-bottom: 188px;
         max-width: 496px;
         }
 
@@ -172,9 +171,9 @@ border-bottom: 1px solid #e7e9fc;
         padding: 16px 32px;
         margin-bottom: 188px;
         border: none;
-        
-        
-}
+        min-width: 169px;
+        height: 56px;
+    }
 
 .hero-btn:hover,
 .hero-btn:focus{
@@ -211,8 +210,7 @@ border-bottom: 1px solid #e7e9fc;
 .team {
     background: #f4f4fd;
     padding-top: 120px;
-    padding-bottom: 120px;
-}
+    padding-bottom: 120px;}
 
 .team-title {
     margin-bottom: 72px;
@@ -224,24 +222,28 @@ border-bottom: 1px solid #e7e9fc;
 }
 
 .team-itm {
+    border-radius: 0 0 4px 4px;
     background: #fff;
 }
 
 .team-imege {
-    margin-bottom: 32px;
+  
 }
 
-.team-subtitle {
+.team-subtitle{
         text-align: center;
         margin-bottom: 8px;
 }
 
 .team-text {
         text-align: center;
-        margin-bottom: 32px;
+      
 }
 
-
+.team-wrap{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 /* ======================================== */
 
 /* =================PORTFOLIO=================== */
@@ -305,21 +307,24 @@ border-bottom: 1px solid #e7e9fc;
     padding-top: 120px;
 }
 
-.logo-footer-part {
+.logo-footer-part{
         color: #f4f4fd;
-}
+        display: inline-block;
+        margin-bottom: 16px;
+    }
+
 
 .footer-text {
         color: #f4f4fd;
-        margin-top: 16px;
         max-width:264px
 }
 
 .footer-wrap{
      padding-bottom: 100px;
-}
+     padding-top: 100px;}
 
 /* ======================================== */ 
+
 
 
 
