@@ -140,13 +140,14 @@ border-bottom: 1px solid #e7e9fc;
  /* ==============HERO================== */
 .hero {
     background: #2e2f42;
-    text-align: center;
+    padding: 188px 0;
+    
     display: flex;
     }
 
 .hero-wrap{
     text-align: center;
-    padding: 188px 0;
+ 
 
 }
 
