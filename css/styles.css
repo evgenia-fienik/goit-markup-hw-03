@@ -309,13 +309,13 @@ border-bottom: 1px solid #e7e9fc;
         padding-top: 100px;
 }
 
+.logo{
+    display: inline-block;
+        margin-bottom: 16px;
+}
 .logo-footer-part{
         color: #f4f4fd;
-        display: inline-block;
-        margin-bottom: 16px;
-     
-    }
-
+      }
 
 .footer-text {
         color: #f4f4fd;
